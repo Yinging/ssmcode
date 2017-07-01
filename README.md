@@ -15,7 +15,7 @@
         - mybatis version：**3.3.1**
         - mybatis-spring version：**1.2.4**
 
-## Gtihub 协同视频教程(Participate)
+## Gtihub 协同视频教程
 
 - 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
 - Judas.n 录制
