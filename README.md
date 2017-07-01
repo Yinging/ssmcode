@@ -2,7 +2,7 @@
 
 ## 说明
 
-- 作者: Yinging, 使用Judas.n：<http://code.YouMeek.com>的搭建的Basic-Single-Module-SSM精简框架
+- 作者: Yinging, 使用Judas.n：<http://code.YouMeek.com>的搭建的Basic-Single-Module-SSM精简框架.
 
 - 环境：
     - JDK 7（理论上支持 JDK 6、JDK 7、JDK 8）
