@@ -27,6 +27,7 @@ public class SysUserController {
 		SysUser user = this.sysUserService.getById(userId);
 		model.addAttribute("user", user);
 		return "showUser";
+		/*return "login_register";*/
 	}
 	
 	@RequestMapping("/showUserToJSONById/{userId}")

@@ -12,4 +12,17 @@
 <%
     String webRoot = "http://" + request.getServerName() + ":" + request.getServerPort();
     request.setAttribute("webRoot",webRoot);
+    /* webRoot=localhost:8080 */
+    /* 统一使用webRoot */
+%>
+
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://"
+            + request.getServerName() + ":" + request.getServerPort()
+            + path + "/";
+    request.setAttribute("path",path);
+    request.setAttribute("basePath",basePath);
+    /* basePath=localhost:8080/ */
+    /* path=localhost:8080  */
 %>
