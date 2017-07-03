@@ -11,9 +11,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-1.6.4.min.js?cdntime=${cdntime}"></script>
-
+    <%--<link href="${webRoot}/css/stick-footer.css" rel="stylesheet">--%>
 
     <link href="${webRoot}/css/starter-template.css" rel="stylesheet">
+
     <!--Bootstrap CDN -->
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
