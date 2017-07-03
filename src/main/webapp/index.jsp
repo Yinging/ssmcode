@@ -9,22 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <jsp:include page="/WEB-INF/view/common/script_and_link.jsp"></jsp:include>
+
 </head>
 <body>
 <jsp:include page="WEB-INF/view/html_common/header.jsp"></jsp:include>
+<%--<%@include file="WEB-INF/view/html_common/header.jsp" %>--%>
 
-<h2>
-    <a href="http://code.YouMeek.com" target="_blank">Hello YouMeek</a>
-</h2>
+<div class="container">
 
-<br>
+    <h2>
+        <a href="http://code.YouMeek.com" target="_blank">Hello YouMeek</a>
+    </h2>
 
-<a href="/sysUserController/showUserToJspById/1" target="_blank">查询用户信息并跳转到一个JSP页面</a>
+    <br>
 
-<br>
+    <a href="/sysUserController/showUserToJspById/1" target="_blank">查询用户信息并跳转到一个JSP页面</a>
 
-<a href="/sysUserController/showUserToJSONById/1" target="_blank">查询用户信息并直接输出JSON数据</a>
+    <br>
+
+    <a href="/sysUserController/showUserToJSONById/1" target="_blank">查询用户信息并直接输出JSON数据</a>
+
+</div>
 
 <jsp:include page="WEB-INF/view/html_common/footer.jsp"></jsp:include>
+<%--<%@include file="WEB-INF/view/html_common/footer.jsp" %>--%>
 </body>
 </html>

@@ -9,13 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-1.6.4.min.js?cdntime=${cdntime}"></script>
-<%--    <script type="text/javascript">
-        $(function () {
-            alert("测试静态资源加载");
-        });
-    </script>--%>
+    <%--    <script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-1.6.4.min.js?cdntime=${cdntime}"></script>--%>
+    <jsp:include page="common/script_and_link.jsp"></jsp:include>
 </head>
+
+
 <body>
 <jsp:include page="html_common/header.jsp"></jsp:include>
 登录名：${user.sysUserLoginName}
@@ -25,8 +23,8 @@
 真实姓名：${user.sysUserRealName}
 
 <a href="${webRoot}/ssmcode/webapp/login_register.jsp" target="_blank">跳转到登录页面</a>
-<div>
-</div>
+
+<jsp:include page="html_common/footer.jsp"></jsp:include>
 </body>
 </html>
 
