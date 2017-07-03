@@ -11,7 +11,7 @@
     <meta name="author" content="">
 </head>
 <body>
-
+<jsp:include page="WEB-INF/view/html_common/header.jsp"></jsp:include>
 
 <h2>
     <a href="http://code.YouMeek.com" target="_blank">Hello YouMeek</a>
@@ -25,5 +25,6 @@
 
 <a href="/sysUserController/showUserToJSONById/1" target="_blank">查询用户信息并直接输出JSON数据</a>
 
+<jsp:include page="WEB-INF/view/html_common/footer.jsp"></jsp:include>
 </body>
 </html>
