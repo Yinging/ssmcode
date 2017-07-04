@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<jsp:include page="WEB-INF/view/html_common/header.jsp"></jsp:include>
+<jsp:include page="/WEB-INF/view/html_common/header.jsp"></jsp:include>
 <%--<%@include file="WEB-INF/view/html_common/header.jsp" %>--%>
 
 <div class="container">
@@ -32,7 +32,7 @@
 
 </div>
 
-<jsp:include page="WEB-INF/view/html_common/footer.jsp"></jsp:include>
+<jsp:include page="/WEB-INF/view/html_common/footer.jsp"></jsp:include>
 <%--<%@include file="WEB-INF/view/html_common/footer.jsp" %>--%>
 </body>
 </html>

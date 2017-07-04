@@ -18,6 +18,6 @@
 
 <footer class="footer">
     <div class="container_footer">
-        <p class="text-muted_footer">Place sticky footer content here.</p>
+        <p class="text-muted_footer">My Github Name Is Yinging.</p>
     </div>
 </footer>
